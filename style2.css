@@ -1,0 +1,44 @@
+ * {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+ }
+a{
+ text-decoration: none;
+ color:white ;
+ 
+}
+body{
+background-color: aquamarine;
+}
+header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 15px 10%;
+background-color: #a52a2ac2;
+}
+.logo{
+cursor: pointer;
+font-size: 30px;
+text-transform: uppercase;
+letter-spacing: 2px;
+color: hsl(78, 79%, 66%);
+}
+.one{
+list-style: none;
+
+}
+.one li{
+display: inline-block;
+padding: 0px 30px;
+}
+.action{
+padding: 10px 25px;
+background-color:#9eff2f ;
+border-radius: 50px;
+}
+.action:hover{
+background-color: hsl(71, 100%, 59%);
+
+}
